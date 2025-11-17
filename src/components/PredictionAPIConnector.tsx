@@ -23,7 +23,7 @@ export function PredictionAPIConnector() {
   // API CONFIGURATION
   // Change this URL to point to your backend server
   // ====================================
-  const API_ENDPOINT = "https://darija-sentiment-analysis-server.onrender.com/predict"; // Flask server endpoint
+ const API_ENDPOINT = "https://serverofdarijasentimentanalysis-production.up.railway.app/predict";
 
   // State management
   const [inputText, setInputText] = useState("");
